@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  background-color: rgb(241, 239, 239);
+  font-family: "Fira sans", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 85vw;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  height: 50vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.hello {
+  font-size: 55px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.more {
+  font-size: 22px;
+  margin-top: 23px;
+  font-family: "Fira sans", sans-serif;
+}
+.btn {
+  margin-top: 25px;
+}
+.btn-sm {
+  padding: 3px 5px;
+  border-radius: 15px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.btn button {
+  padding: 6px 10px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+.devPic img {
+  height: 58vh;
+}
+.contactForm {
+  padding: 0 34px;
+  /* padding-top: 144px; */
+  font-family: "Fira sans", sans-serif;
+  margin: 0 88px;
+}
+.contactForm h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.contactForm form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactForm form div input {
+  /* width: 20vw; */
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+h1 {
+  margin: 23px;
+  font-family: "Fira sans", sans-serif;
+}
+.blogItem {
+  margin: 20px;
+  font-family: "Fira sans", sans-serif;
+}
+.blog{
+  margin: 40px 88px;
+}
+p {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.intro{
+  margin: 45px 90px;
+}
+.intro h2 {
+  font-family: "Fira sans", sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "Roboto", sans-serif;
+  margin: 12px;
+}
+/* Services */
+.services-section{
+  background: url(bg.jpg);
+  background-size: cover;
+  padding: 60px 0;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon{
+  background: #82ccdd;
+  color: #ddd;
+}
+
+
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+/* .skills{
+    width: 23px;
+    height: 23px;
+} */
+.skillItem {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  align-items: center;
+  margin-top: 10px;
+}
+.skill {
+  width: 265px;
+  height: 6px;
+  background-color: grey;
+  border: 2px solid red;
+}
+.hunderd {
+  width: 300px;
+  background-color: brown;
+}
+.s5 {
+  width: 225px;
+  background-color: blue;
+}
+.fifty {
+  width: 150px;
+  background-color: yellow;
+}
+.t5 {
+  width: 75px;
+  background-color: black;
+}
+.t10 {
+  width: 30px;
+  background-color: cornflowerblue;
+}
+
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+.hamberger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.cross {
+  margin-left: 150px;
+}
+
+@media (max-width: 700px) {
+  /* *{
+        background-color: red;
+    } */
+  .devPic {
+    display: none;
+  }
+  .sidebar {
+    position: absolute;
+  }
+  .intro, .blog, .contactForm{
+    margin: 8px;
+  }
+}
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
