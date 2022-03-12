@@ -273,9 +273,7 @@ p {
   .sidebar {
     position: absolute;
   }
-  .intro, .blog, .contactForm{
-    margin: 15px;
-  }
+ 
 }
 @media screen and (max-width:960px) {
   .service-box{
@@ -303,6 +301,9 @@ p {
     /* display: inline-block; */
     display: inline-block;
     width: 30vh;
+  }
+  .intro, .blog, .contactForm{
+    margin: 50px;
   }
 }
 
