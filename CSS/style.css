@@ -262,7 +262,9 @@ p {
 .cross {
   margin-left: 150px;
 }
-
+.media{
+  display: none;
+}
 @media screen and (max-width: 700px) {
   /* *{
         background-color: red;
@@ -291,8 +293,16 @@ p {
   .service-box{
     max-width: 100%;
   }
-  .devPic {
+  .devPic img {
     display: none;
+  }
+  .service-icon {
+    display: none;
+  }
+  .media{
+    /* display: inline-block; */
+    display: inline-block;
+    width: 15vh;
   }
 }
 
