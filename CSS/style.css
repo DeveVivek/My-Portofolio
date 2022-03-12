@@ -300,10 +300,10 @@ p {
   .media{
     /* display: inline-block; */
     display: inline-block;
-    width: 30vh;
+    width: 20vh;
   }
   .intro, .blog, .contactForm{
-    margin: 50px;
+    margin: 30px;
   }
 }
 
