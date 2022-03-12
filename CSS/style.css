@@ -274,7 +274,7 @@ p {
     position: absolute;
   }
   .intro, .blog, .contactForm{
-    margin: 8px;
+    margin: 15px;
   }
 }
 @media screen and (max-width:960px) {
