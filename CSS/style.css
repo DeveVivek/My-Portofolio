@@ -449,7 +449,7 @@ p {
     margin-top: 10px;
     background-color: rgb(19, 167, 78);
     font-family: "Fira sans", sans-serif;
-    padding: 4px 9px;
+    padding: 5px 8px;
     border-radius: 5px;
     border: 1px solid rgb(3, 15, 30);
     color: white;
@@ -461,5 +461,8 @@ p {
   }
   .devInfo{
     margin-top: 50px;
+  }
+  .intro h2{
+    margin-top: 20px;
   }
 }
