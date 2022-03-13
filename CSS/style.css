@@ -25,7 +25,8 @@
   color: black;
 }
 .main {
-  background-color: white;
+  background-color: rgb(3, 27, 47);
+  /* background-color: white; */
   width: 100vw;
 }
 .container {
@@ -155,7 +156,8 @@ p {
 }
 /* Services */
 .services-section{
-  background: url(bg.jpg);
+  /* background: url(bg.jpg); */
+  background-color: rgb(3, 27, 47);
   background-size: cover;
   padding: 60px 0;
 }
