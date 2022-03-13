@@ -9,7 +9,7 @@
   color: white;
 }
 .sidebar {
-  background-color: rgb(241, 239, 239);
+  background-color: rgb(164, 161, 161);
   font-family: "Fira sans", sans-serif;
   height: 100vh;
   transition: transform 0.3s ease-in;
@@ -135,6 +135,7 @@
 h1 {
   margin: 23px;
   font-family: "Fira sans", sans-serif;
+  color: crimson;
 }
 .blogItem {
   margin: 20px;
@@ -174,7 +175,7 @@ p {
 }
 .section-title{
   text-align: center;
-  color: #ddd;
+  color: crimson;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -405,7 +406,7 @@ p {
 }
 
 .myblog{
-  height: 180vh;
+  height: 160vh;
   background-color: rgb(3, 15, 35);
 }
 .blog{
