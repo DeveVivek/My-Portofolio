@@ -369,6 +369,8 @@ p {
     /* display: inline-block; */
     display: inline-block;
     width: 20vh;
+    margin-left: 30px;
+
   }
   .intro, .blog, .contactForm{
     margin: 30px;
