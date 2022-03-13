@@ -9,7 +9,7 @@
   color: white;
 }
 .sidebar {
-  background-color: rgb(164, 161, 161);
+  background-color: rgb(3, 10, 25);
   font-family: "Fira sans", sans-serif;
   height: 100vh;
   transition: transform 0.3s ease-in;
@@ -24,10 +24,10 @@
 }
 .sidebar nav li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .main {
-  background-color: rgb(3, 15, 35);
+  background-color: rgb(3, 15, 30);
   /* background-color: white; */
   width: 100vw;
   height: 100vh;
@@ -73,7 +73,7 @@
   padding: 3px 5px;
   border-radius: 15px;
   color: white;
-  background-color: rgb(16, 93, 77);
+  background-color: rgb(12, 59, 50);
   font-weight: bold;
   margin: 0 2px;
   cursor: pointer;
@@ -82,7 +82,7 @@
   padding: 6px 10px;
   border-radius: 22px;
   color: white;
-  background-color: rgb(16, 93, 77);
+  background-color: rgb(12, 59, 50);
   font-weight: bold;
   font-size: 18px;
   margin: 0 3px;
@@ -90,7 +90,7 @@
 }
 .btn button:hover {
   background-color: white;
-  color: rgb(16, 93, 77);
+  color: rgb(12, 59, 50);
 }
 .devPic img {
   height: 58vh;
@@ -162,7 +162,7 @@ p {
 /* Services */
 .services-section{
   /* background: url(bg.jpg); */
-  background-color: rgb(3, 15, 35);
+  background-color: rgb(3, 15, 30);
   background-size: cover;
   padding: 60px 0;
 }
@@ -280,6 +280,9 @@ p {
 .cross {
   margin-left: 150px;
 }
+.cross img{
+  size: 2px;
+}
 .media{
   display: none;
   /* float: right; */
@@ -288,7 +291,7 @@ p {
 
 /* footer */
 .footer-distributed {
-  background-color: rgb(3, 15, 25);
+  background-color: rgb(3, 10, 25);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -406,7 +409,7 @@ p {
 }
 
 .myblog{
-  height: 160vh;
+  height: 180vh;
   background-color: rgb(3, 15, 35);
 }
 .blog{
