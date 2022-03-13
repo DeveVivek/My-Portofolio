@@ -161,6 +161,7 @@ p {
 /* Services */
 .services-section{
   /* background: url(bg.jpg); */
+  background-color: rgb(3, 15, 35);
   background-size: cover;
   padding: 60px 0;
 }
@@ -239,7 +240,7 @@ p {
   margin-top: 10px;
 }
 .skill {
-  width: 265px;
+  width: 200px;
   height: 6px;
   background-color: grey;
   border: 2px solid red;
@@ -368,7 +369,7 @@ p {
   .service-icon {
     display: grid;
     float: center;
-    margin-left: 200px;
+    margin-left: 185px;
   }
   .media{
     /* display: inline-block; */
@@ -380,5 +381,35 @@ p {
   .intro, .blog, .contactForm{
     margin: 30px;
   }
+
+/* skills */
+.hunderd {
+  width: 200px;
+  background-color: brown;
+}
+.s5 {
+  width: 175px;
+  background-color: blue;
+}
+.fifty {
+  width: 125px;
+  background-color: yellow;
+}
+.t5 {
+  width: 70px;
+  background-color: black;
+}
+.t10 {
+  width: 60px;
+  background-color: cornflowerblue;
+}
+
+.myblog{
+  height: 150vh;
+  background-color: rgb(3, 15, 35);
+}
+.blog{
+  margin-top: 70px;
+}
 }
 
