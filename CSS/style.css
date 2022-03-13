@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,300,700");
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -25,6 +25,23 @@
 .sidebar nav li a {
   text-decoration: none;
   color: white;
+}
+/* resume */
+.resume button {
+  display: flex;
+  float: right;
+  margin-right: 60px;
+  margin-top: 40px;
+  background-color: rgb(19, 167, 78);
+  font-family: "Fira sans", sans-serif;
+  padding: 7px 35px;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 10vw;
+  height: 5vh;
 }
 .main {
   background-color: rgb(3, 15, 30);
@@ -55,11 +72,12 @@
 .name {
   font-size: 50px;
   font-weight: bold;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   color: crimson;
 }
 .about {
-  font-size: 40px;
+  font-size: 30px;
+  color: #a9acae;
 }
 .more {
   font-size: 22px;
@@ -73,7 +91,7 @@
   padding: 3px 5px;
   border-radius: 15px;
   color: white;
-  background-color: rgb(12, 59, 50);
+  background-color: rgb(17, 167, 78);
   font-weight: bold;
   margin: 0 2px;
   cursor: pointer;
@@ -82,15 +100,15 @@
   padding: 6px 10px;
   border-radius: 22px;
   color: white;
-  background-color: rgb(12, 59, 50);
+  background-color: rgb(17, 167, 78);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   margin: 0 3px;
   cursor: pointer;
 }
 .btn button:hover {
   background-color: white;
-  color: rgb(12, 59, 50);
+  color: rgb(19, 167, 78);
 }
 .devPic img {
   height: 58vh;
@@ -111,7 +129,7 @@
   display: flex;
   flex-direction: column;
 }
-.contactForm label{
+.contactForm label {
   font-weight: bolder;
 }
 .contactForm form div input {
@@ -120,7 +138,7 @@
   margin: 6px 0 0 0;
   padding: 3px;
 }
-.contactForm form div textarea{
+.contactForm form div textarea {
   border-radius: 5px;
   margin: 6px 0 0 0;
   padding: 3px;
@@ -141,14 +159,14 @@ h1 {
   margin: 20px;
   font-family: "Fira sans", sans-serif;
 }
-.blog{
+.blog {
   margin: 40px 88px;
 }
 p {
   margin: 20px;
   font-family: "Roboto", sans-serif;
 }
-.intro{
+.intro {
   margin: 45px 90px;
 }
 .intro h2 {
@@ -160,38 +178,38 @@ p {
   margin: 12px;
 }
 /* Services */
-.services-section{
+.services-section {
   /* background: url(bg.jpg); */
   background-color: rgb(3, 15, 30);
   background-size: cover;
   padding: 60px 0;
 }
-.inner-width{
+.inner-width {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
   overflow: hidden;
 }
-.section-title{
+.section-title {
   text-align: center;
   color: crimson;
   text-transform: uppercase;
   font-size: 30px;
 }
-.border{
+.border {
   width: 160px;
   height: 2px;
   background: #82ccdd;
   margin: 40px auto;
 }
-.services-container{
+.services-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.service-box{
+.service-box {
   max-width: 33.33%;
   padding: 10px;
   text-align: center;
@@ -199,7 +217,7 @@ p {
   cursor: pointer;
 }
 
-.service-icon{
+.service-icon {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -210,23 +228,22 @@ p {
   margin-top: 16px;
   transition: 0.3s linear;
 }
-.service-icon i{
+.service-icon i {
   line-height: 70px;
   transform: rotate(-45deg);
   font-size: 26px;
 }
-.service-box:hover .service-icon{
+.service-box:hover .service-icon {
   background: #82ccdd;
   color: #ddd;
 }
 
-
-.service-title{
+.service-title {
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.service-desc{
+.service-desc {
   font-size: 14px;
 }
 /* .skills{
@@ -280,14 +297,10 @@ p {
 .cross {
   margin-left: 150px;
 }
-.cross img{
-  size: 2px;
-}
-.media{
+.media {
   display: none;
   /* float: right; */
 }
-
 
 /* footer */
 .footer-distributed {
@@ -322,17 +335,23 @@ p {
   text-align: center;
   line-height: 35px;
   margin-left: 3px;
-  transition:all .25s;
+  transition: all 0.25s;
 }
 
-.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+.footer-distributed .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
 
-.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+.footer-distributed p.footer-links a:hover {
+  text-decoration: underline;
+}
 
 /* Media Queries */
 
 @media (max-width: 600px) {
-  .footer-distributed .footer-left, .footer-distributed .footer-right {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
     text-align: center;
   }
   .footer-distributed .footer-right {
@@ -345,26 +364,25 @@ p {
   /* *{
         background-color: red;
     } */
-  
+
   .sidebar {
     position: absolute;
   }
- 
 }
-@media screen and (max-width:960px) {
-  .service-box{
+@media screen and (max-width: 960px) {
+  .service-box {
     max-width: 45%;
   }
 }
 
-@media screen and (max-width:768px) {
-  .service-box{
+@media screen and (max-width: 768px) {
+  .service-box {
     max-width: 50%;
   }
 }
 
-@media screen and (max-width:480px) {
-  .service-box{
+@media screen and (max-width: 480px) {
+  .service-box {
     max-width: 100%;
   }
   .devPic img {
@@ -375,45 +393,66 @@ p {
     float: center;
     margin-left: 185px;
   }
-  .media{
+  .media {
     /* display: inline-block; */
     display: inline-block;
     width: 20vh;
     margin-left: 30px;
-
   }
-  .intro, .blog, .contactForm{
+  .intro,
+  .blog,
+  .contactForm {
     margin: 30px;
   }
 
-/* skills */
-.hunderd {
-  width: 200px;
-  background-color: brown;
-}
-.s5 {
-  width: 175px;
-  background-color: blue;
-}
-.fifty {
-  width: 125px;
-  background-color: yellow;
-}
-.t5 {
-  width: 70px;
-  background-color: black;
-}
-.t10 {
-  width: 60px;
-  background-color: cornflowerblue;
-}
+  /* skills */
+  .hunderd {
+    width: 200px;
+    background-color: brown;
+  }
+  .s5 {
+    width: 175px;
+    background-color: blue;
+  }
+  .fifty {
+    width: 125px;
+    background-color: yellow;
+  }
+  .t5 {
+    width: 70px;
+    background-color: black;
+  }
+  .t10 {
+    width: 60px;
+    background-color: cornflowerblue;
+  }
 
-.myblog{
-  height: 180vh;
-  background-color: rgb(3, 15, 35);
-}
-.blog{
-  margin-top: 60px;
-}
-}
+  .myblog {
+    height: 160vh;
+    background-color: rgb(3, 15, 35);
+  }
+  .blog {
+    margin-top: 60px;
+  }
 
+  /* resume */
+  .resume button {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(19, 167, 78);
+    font-family: "Fira sans", sans-serif;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 23vw;
+    height: 4vh;
+  }
+  .devInfo{
+    margin-top: 50px;
+  }
+}
