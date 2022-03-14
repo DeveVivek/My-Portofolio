@@ -208,7 +208,7 @@ p {
   width: 160px;
   height: 2px;
   background: #82ccdd;
-  margin: 40px auto;
+  margin: 0px auto;
 }
 .services-container {
   display: flex;
@@ -466,5 +466,12 @@ p {
   }
   .intro h2{
     margin-top: 25px;
+  }
+  .skillItem{
+    margin-top: 5px;
+  }
+  .btn-primary{
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 }
