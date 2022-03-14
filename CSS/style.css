@@ -451,7 +451,7 @@ p {
     margin-top: 60px;
   }
 .blog h1{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .inner-width{
   padding: 0;
@@ -485,6 +485,6 @@ p {
   }
   .btn-primary{
     margin-top: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 75px;
   }
 }
