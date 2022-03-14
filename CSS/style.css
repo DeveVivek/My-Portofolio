@@ -118,6 +118,7 @@
   /* padding-top: 144px; */
   font-family: "Fira sans", sans-serif;
   margin: 0 88px;
+  margin-bottom: 255px;
 }
 .contactForm h1 {
   font-family: "Roboto", sans-serif;
@@ -163,7 +164,7 @@ h2{
   font-family: "Fira sans", sans-serif;
 }
 .blog {
-  margin: 40px 88px;
+  margin: 103px 88px;
 }
 p {
   margin: 15px;
@@ -174,11 +175,11 @@ p {
 }
 .intro h2 {
   font-family: "Fira sans", sans-serif;
-  margin-top: 100px;
+  margin-top: 78px;
 }
 .intro p {
   font-family: "Roboto", sans-serif;
-  margin: 12px;
+  margin: 10px;
 }
 .skl{
   color: rgb(81, 211, 133);
@@ -221,6 +222,7 @@ p {
   text-align: center;
   color: #ddd;
   cursor: pointer;
+  margin-top: 40px;
 }
 
 .service-icon {
@@ -434,7 +436,7 @@ p {
   }
 
   .myblog {
-    height: 190vh;
+    height: 175vh;
     background-color: rgb(3, 15, 35);
   }
   .blog {
@@ -449,7 +451,7 @@ p {
     margin-top: 10px;
     background-color: rgb(19, 167, 78);
     font-family: "Fira sans", sans-serif;
-    padding: 5px 8px;
+    padding: 6px 8px;
     border-radius: 5px;
     border: 1px solid rgb(3, 15, 30);
     color: white;
@@ -463,6 +465,6 @@ p {
     margin-top: 50px;
   }
   .intro h2{
-    margin-top: 20px;
+    margin-top: 25px;
   }
 }
