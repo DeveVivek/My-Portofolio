@@ -11,3 +11,9 @@ document.querySelector('.hamberger').addEventListener("click", () => {
         }, 300);
     }
 })
+var typed = new Typed(".auto-type", {
+    strings: ["Web Developer", "Competitive Coder"],
+    typeSpeed: 150,
+    backspeed: 50,
+    loop: true,
+  });
